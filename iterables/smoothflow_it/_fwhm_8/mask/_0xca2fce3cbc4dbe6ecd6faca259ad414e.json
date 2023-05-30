@@ -1,0 +1,20 @@
+[
+    [
+        "in_file",
+        [
+            "/home/arkiev/git/python-tutorials/iterables/smoothflow_it/_fwhm_8/smooth/001_T1_smooth.nii.gz",
+            "f009cb1185b028e747a8b85bca841bd5"
+        ]
+    ],
+    [
+        "mask_file",
+        [
+            "/home/arkiev/git/python-tutorials/iterables/smoothflow_it/bet_node/001_T1_brain_mask.nii.gz",
+            "838d25a4cb597854d50b26222660a515"
+        ]
+    ],
+    [
+        "output_type",
+        "NIFTI_GZ"
+    ]
+]

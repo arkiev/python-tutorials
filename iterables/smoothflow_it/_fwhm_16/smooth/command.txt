@@ -1,0 +1,1 @@
+fslmaths /home/arkiev/git/python-tutorials/dMRI_tutorial/Data/001/001_T1.nii.gz -s 6.79457 /home/arkiev/git/python-tutorials/iterables/smoothflow_it/_fwhm_16/smooth/001_T1_smooth.nii.gz

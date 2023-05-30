@@ -1,0 +1,94 @@
+{
+    "groups": [
+        {
+            "name": "Group_00001",
+            "procs": [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6
+            ],
+            "total": 7
+        }
+    ],
+    "links": [
+        {
+            "source": 1,
+            "target": 4,
+            "value": 1
+        },
+        {
+            "source": 0,
+            "target": 4,
+            "value": 1
+        },
+        {
+            "source": 2,
+            "target": 5,
+            "value": 1
+        },
+        {
+            "source": 0,
+            "target": 5,
+            "value": 1
+        },
+        {
+            "source": 3,
+            "target": 6,
+            "value": 1
+        },
+        {
+            "source": 0,
+            "target": 6,
+            "value": 1
+        }
+    ],
+    "maxN": 7,
+    "nodes": [
+        {
+            "group": 1,
+            "name": "0_bet_node",
+            "report": "/bet_node/_report/report.rst",
+            "result": "/bet_node/result_bet_node.pklz"
+        },
+        {
+            "group": 1,
+            "name": "1_smooth",
+            "report": "/_fwhm_4/smooth/_report/report.rst",
+            "result": "/_fwhm_4/smooth/result_smooth.pklz"
+        },
+        {
+            "group": 1,
+            "name": "2_smooth",
+            "report": "/_fwhm_8/smooth/_report/report.rst",
+            "result": "/_fwhm_8/smooth/result_smooth.pklz"
+        },
+        {
+            "group": 1,
+            "name": "3_smooth",
+            "report": "/_fwhm_16/smooth/_report/report.rst",
+            "result": "/_fwhm_16/smooth/result_smooth.pklz"
+        },
+        {
+            "group": 1,
+            "name": "4_mask",
+            "report": "/_fwhm_4/mask/_report/report.rst",
+            "result": "/_fwhm_4/mask/result_mask.pklz"
+        },
+        {
+            "group": 1,
+            "name": "5_mask",
+            "report": "/_fwhm_8/mask/_report/report.rst",
+            "result": "/_fwhm_8/mask/result_mask.pklz"
+        },
+        {
+            "group": 1,
+            "name": "6_mask",
+            "report": "/_fwhm_16/mask/_report/report.rst",
+            "result": "/_fwhm_16/mask/result_mask.pklz"
+        }
+    ]
+}

@@ -1,0 +1,23 @@
+[
+    [
+        "fwhm",
+        "4.0000000000"
+    ],
+    [
+        "in_file",
+        [
+            "/home/arkiev/git/python-tutorials/dMRI_tutorial/Data/001/001_T1.nii.gz",
+            "3d685be78d4da5b2c3952337569bdad1"
+        ]
+    ],
+    [
+        "output_type",
+        "NIFTI_GZ"
+    ],
+    [
+        "needed_outputs",
+        [
+            "out_file"
+        ]
+    ]
+]

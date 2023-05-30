@@ -1,0 +1,46 @@
+{
+    "groups": [
+        {
+            "name": "Group_00001",
+            "procs": [
+                0,
+                1,
+                2
+            ],
+            "total": 3
+        }
+    ],
+    "links": [
+        {
+            "source": 0,
+            "target": 2,
+            "value": 1
+        },
+        {
+            "source": 1,
+            "target": 2,
+            "value": 1
+        }
+    ],
+    "maxN": 3,
+    "nodes": [
+        {
+            "group": 1,
+            "name": "0_bet",
+            "report": "/bet/_report/report.rst",
+            "result": "/bet/result_bet.pklz"
+        },
+        {
+            "group": 1,
+            "name": "1_smooth",
+            "report": "/smooth/_report/report.rst",
+            "result": "/smooth/result_smooth.pklz"
+        },
+        {
+            "group": 1,
+            "name": "2_mask",
+            "report": "/mask/_report/report.rst",
+            "result": "/mask/result_mask.pklz"
+        }
+    ]
+}

@@ -1,0 +1,1 @@
+fslmaths /home/arkiev/git/python-tutorials/iterables/smoothflow_it/_fwhm_8/smooth/001_T1_smooth.nii.gz -mas /home/arkiev/git/python-tutorials/iterables/smoothflow_it/bet_node/001_T1_brain_mask.nii.gz /home/arkiev/git/python-tutorials/iterables/smoothflow_it/_fwhm_8/mask/001_T1_smooth_masked.nii.gz

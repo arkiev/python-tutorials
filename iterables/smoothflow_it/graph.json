@@ -1,0 +1,53 @@
+[
+    {
+        "group": 1,
+        "imports": [],
+        "name": "0_bet_node",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [],
+        "name": "1_smooth",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [],
+        "name": "2_smooth",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [],
+        "name": "3_smooth",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "1_smooth",
+            "0_bet_node"
+        ],
+        "name": "4_mask",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "2_smooth",
+            "0_bet_node"
+        ],
+        "name": "5_mask",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "3_smooth",
+            "0_bet_node"
+        ],
+        "name": "6_mask",
+        "size": 1
+    }
+]

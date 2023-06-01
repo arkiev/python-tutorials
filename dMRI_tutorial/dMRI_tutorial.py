@@ -14,11 +14,13 @@ fsl.FSLCommand.set_default_output_type('NIFTI')
 
 data_dir =  op.abspath(op.join(op.curdir, 'Data/'))
 # os.listdir(data_dir)
-subject_list = ['001']
+# subject_list = ['001','002','003']
 
-infosource = pe.Node(
-    interface=util.IdentityInterface(fields=['subject_id']), name="infosource")
-infosource.iterables = ('subject_id', subject_list)
+# infosource = pe.Node(
+#     interface=util.IdentityInterface(fields=['subject_id']), name="infosource")
+# infosource.iterables = ('subject_id', subject_list)
+
+subject_id = '001'
 
 info = dict(
     dwi=[['subject_id', 'data']],

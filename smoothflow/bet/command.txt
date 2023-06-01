@@ -1,1 +1,0 @@
-bet 001_T1.nii.gz 001_T1_brain.nii.gz -m
